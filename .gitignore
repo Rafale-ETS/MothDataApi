@@ -1,8 +1,3 @@
-secrets.conf
-rafalemothAPI/api/__pycache__/
-
-rafalemothAPI/api/migrations/__pycache__/
-
-rafalemothAPI/rafalemothAPI/__pycache__/
-
-secrets.json
+*secret*
+.env
+*.deta

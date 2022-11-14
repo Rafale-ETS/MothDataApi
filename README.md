@@ -1,10 +1,13 @@
-"# MothDataApi" 
+# MothDataApi
 
-For dev, run with 'py(thon) manage.py runserver'
+using deta.sh as a host for the microservice and the database.
 
-access with localhost:8000
+# developping on your own deta micro
+After cloning this projet, deploy on deta:
+[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/Rafale-ETS/MothDataApi.git)
 
-__Updating models and DB:__
+pushing changes to deta, while logged in (in deta) as rafale:
+> deta deploy
 
-py manage.py makemigrations api
-py manage.py migrate
+make api public, while logged in (in deta) as rafale:
+> deta auth disable
